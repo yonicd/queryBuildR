@@ -27,12 +27,14 @@ HTMLWidgets.widget({
 
     var $el = $(el);
 
-  $el.find('.selectize-dropdown').css({'height':'auto','opacity':0.5,'z-index':100});
+
 
    $el.on('afterCreateRuleInput.queryBuilder', function(e, rule) {
       if (rule.filter.plugin == 'selectize') {
         rule.$el.find('.rule-value-container').css('min-width', '200px')
           .find('.selectize-control').removeClass('form-control');
+
+          $el.find('.selectize-dropdown').css({'height':'auto','opacity':1,'z-index':100});
       }
     });
 
