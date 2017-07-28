@@ -1,6 +1,6 @@
 Package: queryBuildR
 Title: 'jQuery' QueryBuilder library as Htmlwidget
-Version: 0.2
+Version: 0.21
 Authors@R: c(person("Yann-Ael", "Le Borgne", email = "yleborgn@ulb.ac.be", role = c("aut", "cre")),
              person("Jonathan", "Sidi", email = "yonis@metrumrg.com", role = c("ctb")))
 Description: 'jQuery' QueryBuilder library as Htmlwidget to use in RStudio viewer and Shiny.
